@@ -1,0 +1,171 @@
+body{
+    margin: 0px;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+@font-face {
+    src: url(MarckScript-Regular.ttf);
+    font-family: Lato-Regular;
+}
+.prednja{
+    width: 760px;
+    height: 960px;
+    position: relative;
+    display: flex;
+    background-image: url(slike/Baby\ Girl\ Baptism\ Invitation\ -\ Made\ with\ PosterMyWall.jpg);
+    background-size: cover;
+    background-position:  center;
+}
+.prednja-text{
+    font-family: Lato-Regular;
+    display: inline-block;
+    height: fit-content;
+    font-weight: 1;
+    font-size: 34px;
+    line-height: 45px;
+    letter-spacing: 1px;
+    width: 55%;
+    text-align: center;
+    color: rgb(120, 131, 185);
+    text-shadow: 1px 1px rgb(18, 27, 68);
+    rotate: calc(-20deg);
+    border-radius: 180px;
+    padding: 6%;
+    
+}
+.text-1{
+    position: absolute;
+    width: 84%;
+    top: 175px;
+    left: 20px;
+    text-align: center;
+}
+.text-2{
+    position: absolute;
+    top: 275px;
+    width: 100%;
+    left: -80px;
+    z-index: 5;
+}
+.text-3{
+    position: absolute;
+    top: 390px;
+    left: -60px;
+    font-size: 46px;
+    font-weight: 600;
+    letter-spacing: 2.5px !important;
+}
+.text-4{
+    position: absolute;
+    top: 460px;
+    left: -195px;
+    width: 105%;
+    letter-spacing: 2.5px !important;
+}
+.text-5{
+    width: 135%;
+    position: absolute;
+    top: 670px;
+    left: -230px;
+}
+.text-6{
+    position: absolute;
+    top: 800px;
+    left: 100px;
+}
+.text-6 i{
+    margin-left: 10px;
+    /* box-shadow: 3px 3px 10px red; */
+    padding: 2px;
+    
+}
+.prednja-slika{
+    width: 300px;
+    position: absolute;
+    top: 6%;
+    left: 59%;
+    z-index: 5;
+}
+.prednja-slika img{
+    width: 100%;
+    z-index: 1;
+}
+.zadnja{
+    margin-left: 5px;
+    width: 760px;
+    height: 960px;
+    background-image: url(slike/Baby\ Girl\ Baptism\ Invitation\ -\ Made\ with\ PosterMyWall.jpg);
+    background-size: cover;
+    background-position:  center;
+    transform: scaleX(-1);
+}
+.zadnja-text-poziv{
+    font-family: Lato-Regular;
+    font-weight: 1;
+    font-size: 34px;
+    line-height: 45px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: rgb(120, 131, 185);
+    text-shadow: 1px 1px rgb(18, 27, 68);
+    transform: scaleX(-1);
+    margin: auto;
+    display: flex;
+    position: relative;
+    width: 80%;
+    top: 240px;
+}
+.zadnja-text-lokacije{
+    font-family: Lato-Regular;
+    font-weight: 1;
+    font-size: 30px;
+    line-height: 40px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: rgb(120, 131, 185);
+    text-shadow: 1px 1px rgb(18, 27, 68);
+    transform: scaleX(-1);
+    display: flex;
+    position: relative;
+    top: 300px;
+}
+.zadnja-text-1{
+    position: relative;
+    flex-grow: 1;
+}
+.zadnja-text-1 p{
+    border-right: 3px solid rgb(120, 131, 185);
+    padding: 10px;
+}
+.zadnja-text-2{
+    position: relative;
+    flex-grow: 1;
+}
+.zadnja-text-2 p{
+    padding: 10px;
+}
+.zadnja-text-3{
+    position: relative;
+    flex-grow: 1;
+}
+.zadnja-text-3 p{
+    padding: 10px;
+    border-left: 3px solid rgb(120, 131, 185);
+}
+.zadnja-text-porvrda{
+    font-family: Lato-Regular;
+    font-weight: 1;
+    font-size: 30px;
+    line-height: 40px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: rgb(120, 131, 185);
+    text-shadow: 1px 1px rgb(18, 27, 68);
+    transform: scaleX(-1);
+    position: relative;
+    right: 25px;
+    top: 400px;
+    width: 700px;
+}
